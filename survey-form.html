@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Html form</title>
+	<link rel="stylesheet" type="text/css" href="surveystylesheet.css">
+</head>
+<body>
+<header>
+	<h1>freeCodeCamp Survey Form</h1>
+	<p>Thank you for taking time tio help us improve the platfarm</p>
+</header>
+
+<form>
+	<div class ="textboxs">
+		<p>Name</p>
+		<input type="text" name="name" placeholder="enter yoiut name">
+	</div>
+	<div class ="textboxs">
+		<p>Email</p>
+		<input type="email" name="email" placeholder="enter your email">
+	</div>
+	<div class ="textboxs">
+		<p>Age</p>
+		<input type="number" name="age" placeholder="Enter your age">
+	</div>
+	<div class ="textboxs">
+		<p>Which option best describes your role</p>
+		  <select id="person-role" name="role" >
+		  	<option value="student" disabled value="something">Select your Option</option>
+                <option value="student">Student</option>
+                <option value="part-time-job">part time job</option>
+                <option value="full-time-job">full time job</option>
+                <option value="others">Others</option>
+           </select>
+	</div>
+	<div class ="textboxs">
+		<p>Any Comments</p>
+		<textarea name ="message" placeholder="enter your msg here"></textarea>
+	</div>
+	<div class="textboxs" id="submit-btn">
+		<input type="submit" name="Submit">
+	</div>
+</form>
+</body>
+</html>
